@@ -1,14 +1,14 @@
 public class Spelare {
-                                                                        // Privata fält
+
     private string _namn;
     private int _nummer;
     private string _position;
-                                                                        // Properties — publik get, privat set
-    public string Namn { get; private set; }                            // Skapa get och privat set för Namn
-    public int Nummer { get; private set; }                             // Skapa get och privat set för Nummer
-    public string Position { get; private set; }                        // Skapa get och privat set för Position
-                                                                        // Konstruktor
-    public Spelare(string namn, int nummer, string position) {          // TODO: tilldela de privata fälten
+
+    public string Namn { get; private set; }
+    public int Nummer { get; private set; }
+    public string Position { get; private set; }
+
+    public Spelare(string namn, int nummer, string position) {
         
         Namn = namn;
         Nummer = nummer;
