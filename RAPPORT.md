@@ -41,7 +41,7 @@
 
 ### Kodkvalitet
 
-> 
+> Valde att köra new school med {get; set;} för att det är moderna och lättare att förstå och läsa.
 
 ---
 
