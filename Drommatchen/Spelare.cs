@@ -10,8 +10,8 @@ public class Spelare {
                                                                         // Konstruktor
     public Spelare(string namn, int nummer, string position) {          // TODO: tilldela de privata fälten
         
-        _namn = namn;
-        _nummer = nummer;
-        _position = position;
+        Namn = namn;
+        Nummer = nummer;
+        Position = position;
     }
 }

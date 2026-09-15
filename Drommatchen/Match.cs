@@ -16,14 +16,10 @@ public class Match {
     }
     
     public void Presentera() {                                          // Metod 1: skriv ut matchens lag och datum // TODO
-        Console.WriteLine(_hemmalag);
-        Console.WriteLine(_bortalag);
-        Console.WriteLine(_datum);
+        Console.WriteLine($"{_hemmalag} vs {_bortalag} - {_datum}\n");
     }
     
     public void AnnounceraMålskytt(Spelare spelare) {                   // Metod 2: skriv ut spelarens namn, nummer och position // TODO
-        Console.WriteLine(spelare.Namn);
-        Console.WriteLine(spelare.Nummer);
-        Console.WriteLine(spelare.Position);
+        Console.WriteLine($"#{spelare.Nummer} {spelare.Namn} {spelare.Position}");
     }
 }
