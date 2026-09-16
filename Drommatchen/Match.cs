@@ -12,24 +12,14 @@ public class Match {
     }
     
     public void Presentera() {
-        Console.WriteLine($"{Hemmalag} vs {Bortalag} - {Datum}\n");
+        Console.WriteLine($"{Hemmalag} vs {Bortalag} - {Datum}");
     }
     
     public void AnnounceraMålskytt(Spelare spelare) {
         Console.WriteLine($"#{spelare.Nummer} {spelare.Namn} {spelare.Position}");
     }
-
+    
     public bool ÄrMatchhjälte(Spelare spelare) {
-        string mål;
-        if (spelare.Mål >= 1) {
-            mål = "True";
-            Console.WriteLine($"ÄrMatchhjälte - {spelare.Namn} {mål}");
-            return true;
-        }
-        else {
-            mål = "False";
-            Console.WriteLine($"ÄrMatchhjälte - {spelare.Namn} {mål}");
-        }
-        return false;
+        return spelare.Mål >= 1;
     }
 }

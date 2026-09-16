@@ -5,8 +5,12 @@ Match match = new Match("Sverige", "Bulgarien", "16 Juli 1994");
 
 match.Presentera();
 
+Console.WriteLine();
+
 match.AnnounceraMålskytt(tomas);
 match.AnnounceraMålskytt(krasimir);
 
-match.ÄrMatchhjälte(tomas);
-match.ÄrMatchhjälte(krasimir);
+Console.WriteLine();
+
+Console.WriteLine($"ÄrMatchhjälte - {tomas.Namn}: {match.ÄrMatchhjälte(tomas)}");
+Console.WriteLine($"ÄrMatchhjälte - {krasimir.Namn}: {match.ÄrMatchhjälte(krasimir)}");
