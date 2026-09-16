@@ -18,4 +18,11 @@ public class Match {
     public void AnnounceraMålskytt(Spelare spelare) {
         Console.WriteLine($"#{spelare.Nummer} {spelare.Namn} {spelare.Position}");
     }
+
+    public bool ÄrMatchhjälte(Spelare spelare) {
+        if (spelare.Mål >= 1) {
+            Console.WriteLine($"#{spelare.Nummer} {spelare.Namn} {spelare.Position} {spelare.Mål}");
+        }
+        return true;
+    }
 }
