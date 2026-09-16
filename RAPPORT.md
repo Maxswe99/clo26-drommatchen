@@ -55,11 +55,19 @@
 
 ### Vad vi lade till
 
-> 
+> i Match.cs lade vi till metoden ÄrMatchhjälte. Denna metod är en bool som retunerar true
+> om Mål>=1 annars false. I Spelare.cs så lade vi till Mål i field, property och i parametrarna.
+> i Program.cs lade vi egentligen bara till Console.WriteLine x2 för att skriva ut true false.
+> hämtar namnet från variabel namnet från skapad spelare och namn från propertyn.
+> sen match.ÄrMatchhjälte(tomas) så hämtar den metoden match hjälte från match.cs och använder
+> tomas som argument.
 
 ### Varför vi löste det såhär
 
-> 
+> uppgiften ville ha en bool som säger om målskytten är true eller false därav gjorde vi en
+> metod för att kunna anropa boolen. vi satte Mål>=1 för att titta om spelaren var matchhjälte
+> eller inte. i mina tidigare commits försökte jag lägga en if sats i själva metoden som skrev
+> ut vilket var onödigt.
 
 ---
 
