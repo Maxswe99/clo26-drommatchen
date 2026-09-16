@@ -20,9 +20,16 @@ public class Match {
     }
 
     public bool ÄrMatchhjälte(Spelare spelare) {
+        string mål;
         if (spelare.Mål >= 1) {
-            Console.WriteLine($"#{spelare.Nummer} {spelare.Namn} {spelare.Position} {spelare.Mål}");
+            mål = "True";
+            Console.WriteLine($"ÄrMatchhjälte - {spelare.Namn} {mål}");
+            return true;
         }
-        return true;
+        else {
+            mål = "False";
+            Console.WriteLine($"ÄrMatchhjälte - {spelare.Namn} {mål}");
+        }
+        return false;
     }
 }

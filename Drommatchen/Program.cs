@@ -9,3 +9,4 @@ match.AnnounceraMålskytt(tomas);
 match.AnnounceraMålskytt(krasimir);
 
 match.ÄrMatchhjälte(tomas);
+match.ÄrMatchhjälte(krasimir);
