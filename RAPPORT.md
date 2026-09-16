@@ -25,7 +25,7 @@
 ### Klasserna
 
 > Klasserna var redan definerade från start. jag använde dem för att kalla på dem till program.cs
-> från Spelare.cs och Match.cs genom att kalla på objekten.
+> från Spelare.cs och Match.cs genom att kalla på objekten. Satte dessutom auto implement på propteries och tog bort överflödiga properties
 
 ### Metoderna
 
@@ -45,6 +45,7 @@
 ### Kodkvalitet
 
 > Valde att köra new school med {get; set;} för att det är moderna och lättare att förstå och läsa.
+> raderade manuellt implementerade properties för att det inte behövs defineras två gånger
 
 ---
 
