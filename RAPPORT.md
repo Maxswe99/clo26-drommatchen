@@ -76,7 +76,15 @@
 Klistra in utskriften från `git log --oneline` här:
 
 ```
-e03a2ac (HEAD -> main) commit rapport & reflektion
+6b894a6 (HEAD -> main, origin/main, origin/HEAD) uppdaterad RAPPORT.md
+d33c752 program färdigkodat. slutervserionen. hade onödigt mycket kod då jag aldrig använde else satsen. ai rekommenderade att jag inte behövde skriva ut i metoden endast köra bool true false då det var vad uppgiften krävde. om mål = 0 så rtunerar den false för true sker endast om Mål>=1. skrev sedan ut console.writeline.
+00c72ea lade till string för att översätta mål till text från 4 till true och < false
+0d9fba5 lite små ändringar för att koden ska fungera
+98540c6 uppdaterade mina kommentarer om projektet
+9bf4b4e tog bort överflödig kod då jag inte behöver manuellt implementera properties när jag har get; private set; som auto implementerar
+3a11fed Lade till kommentarer att hur old school get set kan skrivas och att _hemmalag och följande kodrader blir överflödiga
+29c7fb0 lade till information i RAPPORT.md
+e03a2ac commit rapport & reflektion
 183bed2 final last commit
 a714160 last commit
 ef310e0 commit version 4? haha
